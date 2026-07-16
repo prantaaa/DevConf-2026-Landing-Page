@@ -84,38 +84,132 @@ button a{
     margin-bottom: 50px;
 }
 .speaker-container{
-
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:30px;
 }
 .card{
-
     background:white;
     border-radius:15px;
     overflow:hidden;
     border:1px solid #ddd;
 }
 .card img{
-
     width:100%;
     height:250px;
     object-fit:cover;
 }
 .card-container h5{
-
     color:#2563eb;
     font-size:12px;
     margin-bottom:10px;
 }
 .card-container h3{
-
     font-size:26px;
     margin-bottom:10px;
 }
 
 .card-container p{
-
     color:#777;
     font-size:15px;
+}
+.price{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+}
+.price h1{
+    text-align:center;
+    font-size:50px;
+    color:#1f2937;
+}
+.sub{
+    text-align:center;
+    color:#777;
+    margin:15px 0 50px;
+}
+.price-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.card2{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:25px;
+}
+.active{
+    background:#0f1b2d;
+    color:#fff;
+}
+.card2 h5{
+    color:gray;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.active h5{
+    color:#9db7ff;
+}
+
+.card2 h2{
+    font-size:50px;
+    margin-bottom:5px;
+}
+
+.card2 span{
+    color:gray;
+    font-size:14px;
+}
+.active span{
+    color:#ddd;
+}
+.card hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+.active hr{
+    border-top:1px solid rgba(255,255,255,.2);
+}
+.card ul{
+    list-style:none;
+}
+.card ul li{
+    margin:12px 0;
+    font-size:12px;
+    color:#555;
+}
+.active ul li{
+    color:#fff;
+}
+.card i{
+    color:#2563eb;
+    font-size:8px;
+    margin-right:8px;
+}
+.price-btn{
+    width:100%;
+    padding:14px;
+    margin-top:30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:15px;
+    background:white;
+    border:2px solid #2563eb;
+    color:#2563eb;
+}
+.blue-btn{
+    width:100%;
+    padding:14px;
+    margin-top:30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
 }
